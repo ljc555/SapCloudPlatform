@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="hello.util.HanaAction"/>
+<fullyQualifiedTypeName name="hello.util.MysqlAction"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="com.core.entity.User"/>
+<fullyQualifiedTypeName name="com.sap.db.jdbc.trace.ResultSet"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="com.core.mappers.MyRowMapper"/>
+</qualifiedTypeNameHistroy>

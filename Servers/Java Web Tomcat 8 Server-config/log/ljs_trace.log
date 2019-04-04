@@ -1,0 +1,317 @@
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553151976740
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553152056447
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553867905085
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553873013780
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553873294369
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553873959086
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#com.sap.db.jdbc.exceptions.JDBCDriverException: SAP DBTech JDBC: Cannot connect to jdbc:sap://vadbj0g.nwtrial.od.sap.biz:30380/ [Unknown host vadbj0g.nwtrial.od.sap.biz:30380 [vadbj0g.nwtrial.od.sap.biz], -709]. |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:230) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:214) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.generateDatabaseException(SQLExceptionSapDB.java:197) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.Driver.connect(Driver.java:218) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:664) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:247) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getHanaConnection(HanaAction.java:20) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getEmps(HanaAction.java:34) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.HelloWorldServlet.doGet(HelloWorldServlet.java:35) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.connectivity.jco.session.ext.RequestTracker.invoke(RequestTracker.java:55) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.cloud.runtime.impl.bridge.security.AbstractAuthenticator.invoke(AbstractAuthenticator.java:206) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invokeNextValve(TenantValidationValve.java:182) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invoke(TenantValidationValve.java:97) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.callNextValve(RequestTracingValve.java:113) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:59) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.js.monitoring.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:27) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) |
+2019 03 29 23:39:56#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.lang.Thread.run(Thread.java:836) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#com.sap.db.jdbc.exceptions.JDBCDriverException: SAP DBTech JDBC: Cannot connect to jdbc:sap://vadbj0g.nwtrial.od.sap.biz:30380/ [Unknown host vadbj0g.nwtrial.od.sap.biz:30380 [vadbj0g.nwtrial.od.sap.biz], -709]. |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:230) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:214) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.generateDatabaseException(SQLExceptionSapDB.java:197) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.Driver.connect(Driver.java:218) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:664) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:247) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getHanaConnection(HanaAction.java:20) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getEmps(HanaAction.java:34) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.HelloWorldServlet.doGet(HelloWorldServlet.java:35) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.connectivity.jco.session.ext.RequestTracker.invoke(RequestTracker.java:55) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.cloud.runtime.impl.bridge.security.AbstractAuthenticator.invoke(AbstractAuthenticator.java:206) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invokeNextValve(TenantValidationValve.java:182) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invoke(TenantValidationValve.java:97) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.callNextValve(RequestTracingValve.java:113) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:59) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.js.monitoring.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:27) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) |
+2019 03 29 23:53:23#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.lang.Thread.run(Thread.java:836) |
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553875042889
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#com.sap.db.jdbc.exceptions.JDBCDriverException: SAP DBTech JDBC: Cannot connect to jdbc:sap://vadbj0g.nwtrial.od.sap.biz:30380/ [Unknown host vadbj0g.nwtrial.od.sap.biz:30380 [vadbj0g.nwtrial.od.sap.biz], -709]. |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:230) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:214) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.generateDatabaseException(SQLExceptionSapDB.java:197) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.Driver.connect(Driver.java:218) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:664) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:247) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getHanaConnection(HanaAction.java:20) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getEmps(HanaAction.java:34) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.HelloWorldServlet.doGet(HelloWorldServlet.java:35) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.connectivity.jco.session.ext.RequestTracker.invoke(RequestTracker.java:55) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.cloud.runtime.impl.bridge.security.AbstractAuthenticator.invoke(AbstractAuthenticator.java:206) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invokeNextValve(TenantValidationValve.java:182) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invoke(TenantValidationValve.java:97) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.callNextValve(RequestTracingValve.java:113) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:59) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.js.monitoring.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:27) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) |
+2019 03 29 23:58:00#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-3#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.lang.Thread.run(Thread.java:836) |
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553875898955
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#com.sap.db.jdbc.exceptions.JDBCDriverException: SAP DBTech JDBC: Cannot connect to jdbc:sap://vadbj0g.nwtrial.od.sap.biz:30380/ [Unknown host vadbj0g.nwtrial.od.sap.biz:30380 [vadbj0g.nwtrial.od.sap.biz], -709]. |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:230) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.createException(SQLExceptionSapDB.java:214) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.generateDatabaseException(SQLExceptionSapDB.java:197) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.db.jdbc.Driver.connect(Driver.java:218) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:664) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.sql.DriverManager.getConnection(DriverManager.java:247) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getHanaConnection(HanaAction.java:20) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.util.HanaAction.getEmps(HanaAction.java:34) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at hello.HelloWorldServlet.doGet(HelloWorldServlet.java:35) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.connectivity.jco.session.ext.RequestTracker.invoke(RequestTracker.java:55) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.cloud.runtime.impl.bridge.security.AbstractAuthenticator.invoke(AbstractAuthenticator.java:206) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invokeNextValve(TenantValidationValve.java:182) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.tenant.valve.TenantValidationValve.invoke(TenantValidationValve.java:97) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.callNextValve(RequestTracingValve.java:113) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.js.statistics.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:59) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at com.sap.core.js.monitoring.tomcat.valve.RequestTracingValve.invoke(RequestTracingValve.java:27) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) |
+2019 03 30 00:12:18#+0800#ERROR#java.lang.Throwable##anonymous#http-nio-8080-exec-2#na#N/A#N/A#N/A#dev_default#na#na#na#na#	at java.lang.Thread.run(Thread.java:836) |
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1553876116717
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1554342385789
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1554342541681
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+2019 04 04 09:49:18#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Class path contains multiple SLF4J bindings. |
+2019 04 04 09:49:18#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Found binding in [jar:file:/D:/J2EE/neo-java-web-sdk-3.76.12/repository/.archive/bin/logback-classic.jar!/org/slf4j/impl/StaticLoggerBinder.class] |
+2019 04 04 09:49:18#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Found binding in [jar:file:/D:/work/SapCloudPlatform/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ssm-demo/WEB-INF/lib/slf4j-log4j12-1.6.6.jar!/org/slf4j/impl/StaticLoggerBinder.class] |
+2019 04 04 09:49:18#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: See http://www.slf4j.org/codes.html\#multiple_bindings for an explanation. |
+2019 04 04 09:49:18#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory] |
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1554359197069
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+FILE_TYPE:DAAA96DE-B0FB-4c6e-AF7B-A445F5BF9BE2
+FILE_ID:1554360575509
+ENCODING:[UTF8|NWCJS:ASCII]
+RECORD_SEPARATOR:124
+COLUMN_SEPARATOR:35
+ESC_CHARACTER:92
+COLUMNS:Time|TZone|Severity|Logger|ACH|User|Thread|Bundle name|JPSpace|JPAppliance|JPComponent|Tenant Alias|DSR Root Context ID|DSR Transaction|DSR Connection|DSR Counter|Text|
+SEVERITY_MAP:FINEST|Information|FINER|Information|FINE|Information|CONFIG|Information|DEBUG|Information|PATH|Information|INFO|Information|WARNING|Warning|ERROR|Error|SEVERE|Error|FATAL|Error
+HEADER_END
+
+
+2019 04 04 14:49:55#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Class path contains multiple SLF4J bindings. |
+2019 04 04 14:49:55#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Found binding in [jar:file:/D:/J2EE/neo-java-web-sdk-3.76.12/repository/.archive/bin/logback-classic.jar!/org/slf4j/impl/StaticLoggerBinder.class] |
+2019 04 04 14:49:55#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Found binding in [jar:file:/D:/work/SapCloudPlatform/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/lib/logback-classic-1.1.11.jar!/org/slf4j/impl/StaticLoggerBinder.class] |
+2019 04 04 14:49:55#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: See http://www.slf4j.org/codes.html\#multiple_bindings for an explanation. |
+2019 04 04 14:49:55#+0800#ERROR#org.slf4j.helpers.Util##anonymous#localhost-startStop-1#na#N/A#N/A#N/A##na#na#na#na#SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder] |

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.core.tools.eclipse.server.cloud.launch">
+<booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+<stringAttribute key="server-id" value="SAP Cloud Platform at eu1.hana.ondemand.com"/>
+</launchConfiguration>

@@ -1,0 +1,9 @@
+com\vito16\shop\test\suite\AllTestsSuite.class
+com\vito16\shop\test\UserTest.class
+com\vito16\shop\test\RegTest.class
+com\vito16\shop\test\InitiTest.class
+com\vito16\shop\test\AdminTest.class
+com\vito16\shop\test\BaseTest.class
+com\vito16\shop\test\OrderTest.class
+com\vito16\shop\test\ProductTest.class
+com\vito16\shop\test\VitoTest.class

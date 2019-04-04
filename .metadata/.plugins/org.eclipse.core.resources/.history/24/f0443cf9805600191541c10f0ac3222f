@@ -1,0 +1,20 @@
+CREATE TABLE ssm_book (
+  id INT PRIMARY KEY,
+  isbn varchar(15) NOT NULL,
+  path varchar(150) DEFAULT NULL,
+  title varchar(200) DEFAULT NULL,
+  subtitle varchar(200) DEFAULT NULL,
+  originalTitle varchar(200) DEFAULT NULL,
+  marketPrice varchar(10) DEFAULT NULL,
+  intro varchar(2000),
+  binding varchar(20) DEFAULT NULL,
+  pages varchar(10) DEFAULT NULL,
+  author varchar(200) DEFAULT NULL,
+  publisher varchar(100) DEFAULT NULL,
+  catalog varchar(2000),
+  supply varchar(20) DEFAULT NULL,
+  status INT DEFAULT '0',
+  hot INT DEFAULT '0',
+  indate varchar(50) DEFAULT NULL
+);
+

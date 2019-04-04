@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LoggingView">
+		<section name="columnPositions">
+			<item value="6" key="COMMUNICATION_TIME"/>
+			<item value="2" key="REQUEST_NAME"/>
+			<item value="7" key="SERVER_TIME"/>
+			<item value="10" key="ATTACHMENT_COUNT"/>
+			<item value="11" key="VERSION"/>
+			<item value="0" key="TIME"/>
+			<item value="1" key="SESSION"/>
+			<item value="3" key="STATUS_CODE"/>
+			<item value="5" key="ELAPSED_TIME"/>
+			<item value="9" key="RESPONSE_SIZE"/>
+			<item value="4" key="THREAD"/>
+			<item value="8" key="REQUEST_SIZE"/>
+		</section>
+		<section name="columnWidths">
+			<item value="60" key="COMMUNICATION_TIME"/>
+			<item value="300" key="REQUEST_NAME"/>
+			<item value="60" key="SERVER_TIME"/>
+			<item value="60" key="ATTACHMENT_COUNT"/>
+			<item value="80" key="VERSION"/>
+			<item value="70" key="TIME"/>
+			<item value="70" key="SESSION"/>
+			<item value="60" key="STATUS_CODE"/>
+			<item value="60" key="ELAPSED_TIME"/>
+			<item value="100" key="RESPONSE_SIZE"/>
+			<item value="60" key="THREAD"/>
+			<item value="80" key="REQUEST_SIZE"/>
+		</section>
+	</section>
+</section>

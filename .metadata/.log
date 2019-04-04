@@ -1,0 +1,2109 @@
+!SESSION 2019-04-04 08:16:19.337 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\work\SapCloudPlatform\.metadata\.bak_0.log
+Created Time: 2019-04-04 11:14:07.046
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-04-04 11:14:07.047
+!MESSAGE Exception occurred while rendering: org.eclipse.e4.ui.model.application.ui.advanced.impl.PlaceholderImpl@647ce968 (elementId: org.eclipse.wst.server.ui.ServersView, tags: [], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer@500497e3, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (closeable: false)
+!STACK 0
+java.lang.NullPointerException
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.executeStatement(FederationSQLService.java:182)
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.isExtendedStorageInstalled(FederationSQLService.java:1681)
+	at com.sap.ndb.studio.federation.catalog.navigator.FederationSupportedTester.test(FederationSupportedTester.java:37)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:199)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerActivation.evaluate(HandlerActivation.java:88)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:119)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:241)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.handleReparent(EclipseContext.java:502)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.setParent(EclipseContext.java:426)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:82)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:68)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$4.widgetSelected(PerspectiveSwitcher.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY com.sap.ndb.studio.catalog 4 4 2019-04-04 11:14:10.785
+!MESSAGE [p2001184157trial-ljc555 hanatrial.ondemand.com (LJC555DB)] Could not create connection
+!STACK 0
+com.sap.ndb.studio.jdbc.JDBCConnectionStatus: Database connection is not available; see error log
+	at com.sap.ndb.studio.jdbc.JDBCPlugin.createConnection(JDBCPlugin.java:281)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.internalGetConnection(ConnectionResource.java:76)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:57)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:65)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:61)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:134)
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.isExtendedStorageInstalled(FederationSQLService.java:1678)
+	at com.sap.ndb.studio.federation.catalog.navigator.FederationSupportedTester.test(FederationSupportedTester.java:37)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:199)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerActivation.evaluate(HandlerActivation.java:88)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:119)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:241)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:100)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:108)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:79)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.lambda$0(HandlerProxy.java:253)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:110)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:92)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:76)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:74)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:64)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$2.run(SelectionAggregator.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:123)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$6(SelectionAggregator.java:121)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7$1.run(SelectionAggregator.java:231)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:56)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7.changed(SelectionAggregator.java:228)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:337)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.track(SelectionAggregator.java:213)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:117)
+	at sun.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:90)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:111)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:674)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:53)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:746)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:676)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1179)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1287)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1278)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4329)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4325)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4305)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:171)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:141)
+	at com.sap.cloud.tools.eclipse.hana.tunnel.ui.CloudSystemHelper$1.run(CloudSystemHelper.java:516)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Caused by: com.sap.db.jdbc.exceptions.JDBCDriverException: SAP DBTech JDBC: Cannot connect to jdbc:sap://localhost:30015;10.117.96.133:0 [None of the hosts could be reached: [Cannot connect to host localhost:30015 [Connection refused: connect], -813.; host = 10.117.96.133:0 error = Cannot connect to host 10.117.96.133:0 [connect: Address is invalid on local machine, or port is not valid on remote machine], -813.]].
+	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB._newInstance(SQLExceptionSapDB.java:126)
+	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB._newInstance(SQLExceptionSapDB.java:203)
+	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.newInstance(SQLExceptionSapDB.java:50)
+	at com.sap.db.jdbc.DriverSapDB._connect(DriverSapDB.java:1408)
+	at com.sap.db.jdbc.DriverSapDB.connect(DriverSapDB.java:1106)
+	at com.sap.ndb.studio.jdbc.JDBCConnection$1.run(JDBCConnection.java:172)
+Caused by: com.sap.db.jdbc.exceptions.RTEException: Cannot connect to host localhost:30015 [Connection refused: connect], -813.
+	at com.sap.db.jdbc.Session._throwRTEException(Session.java:755)
+	at com.sap.db.jdbc.BasicSession._openSocket(BasicSession.java:200)
+	at com.sap.db.jdbc.BasicSession.<init>(BasicSession.java:71)
+	at com.sap.db.jdbc.BasicSession$1.newInstance(BasicSession.java:35)
+	at com.sap.db.jdbc.Topology.getConnection(Topology.java:186)
+	at com.sap.db.jdbc.DriverSapDB._connect(DriverSapDB.java:1404)
+	... 2 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2019-04-04 11:14:10.788
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.executeStatement(FederationSQLService.java:182)
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.isExtendedStorageInstalled(FederationSQLService.java:1681)
+	at com.sap.ndb.studio.federation.catalog.navigator.FederationSupportedTester.test(FederationSupportedTester.java:37)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:199)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerActivation.evaluate(HandlerActivation.java:88)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:119)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:241)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:100)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:108)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:79)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.lambda$0(HandlerProxy.java:253)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:110)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:92)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:76)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:74)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:64)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$2.run(SelectionAggregator.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:123)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$6(SelectionAggregator.java:121)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7$1.run(SelectionAggregator.java:231)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:56)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7.changed(SelectionAggregator.java:228)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:337)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.track(SelectionAggregator.java:213)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:117)
+	at sun.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:90)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:111)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:674)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:53)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:746)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:676)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1179)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1287)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1278)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4329)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4325)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4305)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:171)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:141)
+	at com.sap.cloud.tools.eclipse.hana.tunnel.ui.CloudSystemHelper$1.run(CloudSystemHelper.java:516)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-04-04 11:14:10.789
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.executeStatement(FederationSQLService.java:182)
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.isExtendedStorageInstalled(FederationSQLService.java:1681)
+	at com.sap.ndb.studio.federation.catalog.navigator.FederationSupportedTester.test(FederationSupportedTester.java:37)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:199)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerActivation.evaluate(HandlerActivation.java:88)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:119)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:241)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:100)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:108)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:79)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.lambda$0(HandlerProxy.java:253)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:110)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:92)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:76)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:74)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:64)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$2.run(SelectionAggregator.java:126)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:123)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$6(SelectionAggregator.java:121)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7$1.run(SelectionAggregator.java:231)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:56)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$7.changed(SelectionAggregator.java:228)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:337)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.track(SelectionAggregator.java:213)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:117)
+	at sun.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:90)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:111)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:674)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:53)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:746)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:676)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1179)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1287)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1278)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4329)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4325)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4305)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:171)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:141)
+	at com.sap.cloud.tools.eclipse.hana.tunnel.ui.CloudSystemHelper$1.run(CloudSystemHelper.java:516)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY com.sap.ndb.studio.catalog 4 4 2019-04-04 11:14:12.014
+!MESSAGE [p2001184157trial-ljc555 hanatrial.ondemand.com (LJC555DB)] Could not create connection
+!STACK 0
+com.sap.ndb.studio.jdbc.JDBCConnectionStatus: Database connection is not available; see error log
+	at com.sap.ndb.studio.jdbc.JDBCPlugin.createConnection(JDBCPlugin.java:281)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.internalGetConnection(ConnectionResource.java:76)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:57)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:65)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:61)
+	at com.sap.ndb.studio.catalog.internal.ConnectionResource.getConnection(ConnectionResource.java:134)
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.isExtendedStorageInstalled(FederationSQLService.java:1678)
+	at com.sap.ndb.studio.federation.catalog.navigator.FederationSupportedTester.test(FederationSupportedTester.java:37)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:199)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerActivation.evaluate(HandlerActivation.java:88)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:119)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:241)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:100)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:108)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:79)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.lambda$0(HandlerProxy.java:253)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:110)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:92)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:674)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:53)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:746)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:676)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1179)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1287)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1278)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4329)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4325)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4305)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:171)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:141)
+	at com.sap.cloud.tools.eclipse.hana.tunnel.ui.CloudSystemHelper$1.run(CloudSystemHelper.java:516)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Caused by: com.sap.db.jdbc.exceptions.JDBCDriverException: SAP DBTech JDBC: Cannot connect to jdbc:sap://localhost:30015;10.117.96.133:0 [None of the hosts could be reached: [Cannot connect to host localhost:30015 [Connection refused: connect], -813.; host = 10.117.96.133:0 error = Cannot connect to host 10.117.96.133:0 [connect: Address is invalid on local machine, or port is not valid on remote machine], -813.]].
+	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB._newInstance(SQLExceptionSapDB.java:126)
+	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB._newInstance(SQLExceptionSapDB.java:203)
+	at com.sap.db.jdbc.exceptions.SQLExceptionSapDB.newInstance(SQLExceptionSapDB.java:50)
+	at com.sap.db.jdbc.DriverSapDB._connect(DriverSapDB.java:1408)
+	at com.sap.db.jdbc.DriverSapDB.connect(DriverSapDB.java:1106)
+	at com.sap.ndb.studio.jdbc.JDBCConnection$1.run(JDBCConnection.java:172)
+Caused by: com.sap.db.jdbc.exceptions.RTEException: Cannot connect to host localhost:30015 [Connection refused: connect], -813.
+	at com.sap.db.jdbc.Session._throwRTEException(Session.java:755)
+	at com.sap.db.jdbc.BasicSession._openSocket(BasicSession.java:200)
+	at com.sap.db.jdbc.BasicSession.<init>(BasicSession.java:71)
+	at com.sap.db.jdbc.BasicSession$1.newInstance(BasicSession.java:35)
+	at com.sap.db.jdbc.Topology.getConnection(Topology.java:186)
+	at com.sap.db.jdbc.DriverSapDB._connect(DriverSapDB.java:1404)
+	... 2 more
+
+!ENTRY org.eclipse.ui 4 0 2019-04-04 11:14:12.023
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.executeStatement(FederationSQLService.java:182)
+	at com.sap.ndb.studio.federation.services.ds.impl.sql.FederationSQLService.isExtendedStorageInstalled(FederationSQLService.java:1681)
+	at com.sap.ndb.studio.federation.catalog.navigator.FederationSupportedTester.test(FederationSupportedTester.java:37)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:199)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:71)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerActivation.evaluate(HandlerActivation.java:88)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:119)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:241)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:228)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:100)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:108)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:79)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.lambda$0(HandlerProxy.java:253)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:110)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:92)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:355)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:370)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:674)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:53)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:746)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:676)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1179)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1287)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1278)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4329)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4325)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4305)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:171)
+	at com.sap.ndb.studio.ui.misc.CommandUtil.execute2(CommandUtil.java:141)
+	at com.sap.cloud.tools.eclipse.hana.tunnel.ui.CloudSystemHelper$1.run(CloudSystemHelper.java:516)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.297
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unindEdmxConnectionFactory] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.300
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unindEdmxConnectionFactory] not found
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.302
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxProvider] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.303
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxProvider] not found
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.305
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindODataMetadataService] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.306
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindODataMetadataService] not found
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.310
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxXSDGenerator] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 11:16:55.311
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxXSDGenerator] not found
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-04-04 11:16:55.740
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob
+!SESSION 2019-04-04 11:17:02.030 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-04-04 11:17:08.186
+!MESSAGE Both 'com.sap.adt.packages' and 'com.sap.adt.packages' register a package for 'http://www.sap.com/adt/packages'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-04-04 11:17:08.199
+!MESSAGE Both 'com.sap.ndb.studio.model.data' and 'com.sap.ide.ui5.ctrl.metamodel' register an extension parser for 'type'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-04 11:17:25.229
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jiangli'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:17:38.945
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:17:38.948
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:17:39.587
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:17:39.589
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.sap.ide.ui5.services 1 1 2019-04-04 11:17:44.937
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.it.ide.rt.profiles 4 0 2019-04-04 11:17:48.859
+!MESSAGE Unable to fetch list of tenants
+[Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+!STACK 0
+com.sap.it.commons.command.eclipsechannel.ServerNotConfiguredException: [Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+	at com.sap.it.commons.command.eclipsechannel.simplepref.controls.HttpServerConnection.createSynchronousProcessor(HttpServerConnection.java:180)
+	at com.sap.it.commons.command.eclipsechannel.backend.impl.BackendCommandDispatcherFactoryImpl.grantBackendCommandDispatcher(BackendCommandDispatcherFactoryImpl.java:92)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.fetchTenantLists(RuntimeProfilesFetcher.java:148)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.access$12(RuntimeProfilesFetcher.java:145)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher$10$1.run(RuntimeProfilesFetcher.java:867)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY com.sap.it.ide.rt.profiles 4 0 2019-04-04 11:17:54.358
+!MESSAGE Unable to fetch list of tenants
+[Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+!STACK 0
+com.sap.it.commons.command.eclipsechannel.ServerNotConfiguredException: [Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+	at com.sap.it.commons.command.eclipsechannel.simplepref.controls.HttpServerConnection.createSynchronousProcessor(HttpServerConnection.java:180)
+	at com.sap.it.commons.command.eclipsechannel.backend.impl.BackendCommandDispatcherFactoryImpl.grantBackendCommandDispatcher(BackendCommandDispatcherFactoryImpl.java:92)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.fetchTenantLists(RuntimeProfilesFetcher.java:148)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.access$12(RuntimeProfilesFetcher.java:145)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher$10$1.run(RuntimeProfilesFetcher.java:867)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.jface 2 0 2019-04-04 11:24:11.951
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-04 11:24:11.951
+!MESSAGE A conflict occurred for DEL:
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete the selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@509d7c4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete the selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@509d7c4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-04 11:24:11.951
+!MESSAGE A conflict occurred for CTRL+,:
+Binding(CTRL+,,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previous,Previous,
+		Navigate to the previous item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1708a2bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+,,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.previous,Navigate to the previous item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ba684ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-04 11:24:11.951
+!MESSAGE A conflict occurred for CTRL+.:
+Binding(CTRL+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Next,
+		Navigate to the next item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a8133b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+.,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.next,Navigate to the next item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1454fb8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:32:11.879
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:32:11.881
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:33:20.103
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 11:33:20.105
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 11:41:12.028
+!MESSAGE An application is started: URL is: https://ssmdemop2001184157trial.hanatrial.ondemand.com
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 11:58:15.439
+!MESSAGE An application is started: URL is: https://ssmdemop2001184157trial.hanatrial.ondemand.com
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 12:00:11.715
+!MESSAGE An application is started: URL is: https://ssmdemop2001184157trial.hanatrial.ondemand.com
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 12:08:16.886
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: Could not connect to host: https://hanatrial.ondemand.com. Make sure your proxy settings are correct
+
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.testCloudConnection(JCloudControllerImpl.java:437)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getBasicAuthHttpClient(JCloudControllerImpl.java:316)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getHttpClient(JCloudControllerImpl.java:481)
+	at com.sap.core.tools.eclipse.logging.api.impl.CloudLogConnector.getHttpClient(CloudLogConnector.java:166)
+	at com.sap.core.tools.eclipse.logging.api.impl.CloudLogConnector.createLogRestClient(CloudLogConnector.java:104)
+	at com.sap.core.tools.eclipse.logging.api.impl.CloudLogConnector.getLogFiles(CloudLogConnector.java:143)
+	at com.sap.core.tools.eclipse.logging.jobs.GetLogFilesJob.performCloudCommunication(GetLogFilesJob.java:62)
+	at com.sap.core.tools.eclipse.logging.jobs.AbstractUserUIJob.run(AbstractUserUIJob.java:75)
+	at com.sap.core.tools.eclipse.logging.jobs.GetLogFilesJob.run(GetLogFilesJob.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-04-04 12:08:16.897
+!MESSAGE An internal error occurred during: "Retrieving log file list for ssmdemo.p2001184157trial at hanatrial.ondemand.com...".
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.testCloudConnection(JCloudControllerImpl.java:437)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getBasicAuthHttpClient(JCloudControllerImpl.java:316)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getHttpClient(JCloudControllerImpl.java:481)
+	at com.sap.core.tools.eclipse.logging.api.impl.CloudLogConnector.getHttpClient(CloudLogConnector.java:166)
+	at com.sap.core.tools.eclipse.logging.api.impl.CloudLogConnector.createLogRestClient(CloudLogConnector.java:104)
+	at com.sap.core.tools.eclipse.logging.api.impl.CloudLogConnector.getLogFiles(CloudLogConnector.java:143)
+	at com.sap.core.tools.eclipse.logging.jobs.GetLogFilesJob.performCloudCommunication(GetLogFilesJob.java:62)
+	at com.sap.core.tools.eclipse.logging.jobs.AbstractUserUIJob.run(AbstractUserUIJob.java:75)
+	at com.sap.core.tools.eclipse.logging.jobs.GetLogFilesJob.run(GetLogFilesJob.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 12 more
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 12:17:51.661
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: No response from server
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 12:17:51.664
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]  state is probably erroneous. Last state: 
+ Code: 0
+ Message:STARTED
+ Status :STARTED(STARTED)
+ Stacktrace :null
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 12:17:51.666
+!MESSAGE Error on refreshing server state
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 12:37:20.083
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: No response from server
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 12:37:20.083
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]  state is probably erroneous. Last state: 
+ Code: 0
+ Message:STARTED
+ Status :STARTED(STARTED)
+ Stacktrace :null
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 12:37:20.084
+!MESSAGE Error on refreshing server state
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 13:11:55.432
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: Could not connect to host: https://hanatrial.ondemand.com. Make sure your proxy settings are correct
+
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 13:11:55.435
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]  state is probably erroneous. Last state: 
+ Code: 0
+ Message:STARTED
+ Status :STARTED(STARTED)
+ Stacktrace :null
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 13:11:55.440
+!MESSAGE Error on refreshing server state
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 13:14:29.103
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: Could not connect to host: https://hanatrial.ondemand.com. Make sure your proxy settings are correct
+
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.836
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unindEdmxConnectionFactory] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.837
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unindEdmxConnectionFactory] not found
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.838
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxProvider] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.840
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxProvider] not found
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.842
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindODataMetadataService] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.843
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindODataMetadataService] not found
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.914
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxXSDGenerator] not found; Component will fail
+
+!ENTRY com.sap.it.ds.intrsp.md.api 4 0 2019-04-04 13:16:47.916
+!MESSAGE [com.sap.it.ds.intrsp.md.api(118)] unbind method [unbindEdmxXSDGenerator] not found
+!SESSION 2019-04-04 14:23:16.840 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-04-04 14:23:26.300
+!MESSAGE Both 'com.sap.adt.packages' and 'com.sap.adt.packages' register a package for 'http://www.sap.com/adt/packages'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-04-04 14:23:26.317
+!MESSAGE Both 'com.sap.ndb.studio.model.data' and 'com.sap.ide.ui5.ctrl.metamodel' register an extension parser for 'type'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-04 14:23:42.788
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jiangli'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 14:23:50.638
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 14:23:50.647
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 14:23:51.203
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-04 14:23:51.204
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.sap.ide.ui5.services 1 1 2019-04-04 14:23:54.734
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.it.ide.rt.profiles 4 0 2019-04-04 14:23:56.182
+!MESSAGE Unable to fetch list of tenants
+[Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+!STACK 0
+com.sap.it.commons.command.eclipsechannel.ServerNotConfiguredException: [Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+	at com.sap.it.commons.command.eclipsechannel.simplepref.controls.HttpServerConnection.createSynchronousProcessor(HttpServerConnection.java:180)
+	at com.sap.it.commons.command.eclipsechannel.backend.impl.BackendCommandDispatcherFactoryImpl.grantBackendCommandDispatcher(BackendCommandDispatcherFactoryImpl.java:92)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.fetchTenantLists(RuntimeProfilesFetcher.java:148)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.access$12(RuntimeProfilesFetcher.java:145)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher$10$1.run(RuntimeProfilesFetcher.java:867)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY com.sap.it.ide.rt.profiles 4 0 2019-04-04 14:23:58.951
+!MESSAGE Unable to fetch list of tenants
+[Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+!STACK 0
+com.sap.it.commons.command.eclipsechannel.ServerNotConfiguredException: [Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+	at com.sap.it.commons.command.eclipsechannel.simplepref.controls.HttpServerConnection.createSynchronousProcessor(HttpServerConnection.java:180)
+	at com.sap.it.commons.command.eclipsechannel.backend.impl.BackendCommandDispatcherFactoryImpl.grantBackendCommandDispatcher(BackendCommandDispatcherFactoryImpl.java:92)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.fetchTenantLists(RuntimeProfilesFetcher.java:148)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.access$12(RuntimeProfilesFetcher.java:145)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher$10$1.run(RuntimeProfilesFetcher.java:867)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.jface 2 0 2019-04-04 14:25:13.032
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-04 14:25:13.032
+!MESSAGE A conflict occurred for DEL:
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete the selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5acee618,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete the selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5acee618,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-04 14:25:13.032
+!MESSAGE A conflict occurred for CTRL+,:
+Binding(CTRL+,,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previous,Previous,
+		Navigate to the previous item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@491dfd8e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+,,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.previous,Navigate to the previous item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@768c03f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-04 14:25:13.032
+!MESSAGE A conflict occurred for CTRL+.:
+Binding(CTRL+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Next,
+		Navigate to the next item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61fd8c74,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+.,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.next,Navigate to the next item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c2e5875,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:25:17.714
+!MESSAGE Starting at:1554359117712
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:25:17.719
+!MESSAGE Starting server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]...
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 14:26:12.288
+!MESSAGE com.sap.core.deploy.client.publicrest.impl.UpdateStateClient  - Error Occurred while execution of update application state to STARTED. Details:
+	Code: db457cc4-ce0c-4951-b1ed-f6a380eea748
+	Description: Application 'ssmdemo' is started. The application is deployed in a trial subaccount, which provides a single process. If you need to start additional processes, deploy the application in a productive subaccount. If you need to restart, execute restart.
+
+
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 14:26:12.628
+!MESSAGE Cannot start application 'ssmdemo' in subaccount 'p2001184157trial'
+
+Reason:
+Application 'ssmdemo' is started. The application is deployed in a trial subaccount, which provides a single process. If you need to start additional processes, deploy the application in a productive subaccount. If you need to restart, execute restart.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Application 'ssmdemo' is started. The application is deployed in a trial subaccount, which provides a single process. If you need to start additional processes, deploy the application in a productive subaccount. If you need to restart, execute restart.
+	at com.sap.core.tools.eclipse.server.cloud.launch.CloudLaunchConfigurationDelegate.launch(CloudLaunchConfigurationDelegate.java:80)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:731)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3566)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3502)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:377)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 14:26:12.629
+!MESSAGE Application 'ssmdemo' is started. The application is deployed in a trial subaccount, which provides a single process. If you need to start additional processes, deploy the application in a productive subaccount. If you need to restart, execute restart.
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 14:26:12.632
+!MESSAGE Cannot start application 'ssmdemo' in subaccount 'p2001184157trial'
+
+Reason:
+Application 'ssmdemo' is started. The application is deployed in a trial subaccount, which provides a single process. If you need to start additional processes, deploy the application in a productive subaccount. If you need to restart, execute restart.
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:27:09.553
+!MESSAGE An application is started: URL is: https://ssmdemop2001184157trial.hanatrial.ondemand.com
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:30:34.429
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:30:59.787
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 14:33:06.206
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: Could not connect to host: https://hanatrial.ondemand.com. Make sure your proxy settings are correct
+
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 14:33:06.207
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]  state is probably erroneous. Last state: 
+ Code: 0
+ Message:STARTED
+ Status :STARTED(STARTED)
+ Stacktrace :null
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 14:33:06.208
+!MESSAGE Error on refreshing server state
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatusBasic(DeployerImpl.java:1166)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatus(JCloudControllerImpl.java:266)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:219)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 7 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:34:05.542
+!MESSAGE Deploying war file with descriptor [warFile=C:\Users\jiangli\AppData\Local\Temp\central.jpaas.server.adapter196322100977727554.tmp\demo.war]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:34:05.543
+!MESSAGE Deploying with descriptor [updateSite=C:\Users\jiangli\AppData\Local\Temp\central.jpaas.server.adapter196322100977727554.tmp\demo.war, Installable Unit=null, services=[all]]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:36:14.162
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:36:14.173
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:36:14.601
+!MESSAGE An application is started: URL is: https://ssmdemop2001184157trial.hanatrial.ondemand.com
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:41:22.983
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 14:41:38.180
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.common 4 0 2019-04-04 14:41:41.352
+!MESSAGE Could not get module root URL for module artifact WebResource [module=Module[ssm-demo,org.eclipse.jst.jee.server:ssm-demo], path=]
+
+!ENTRY com.sap.core.tools.eclipse.server.common 4 0 2019-04-04 14:42:24.521
+!MESSAGE Could not get module root URL for module artifact WebResource [module=Module[ssm-demo,org.eclipse.jst.jee.server:ssm-demo], path=]
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2019-04-04 14:45:04.317
+!MESSAGE Version [3.0 - 3.1] of project facet jst.webfragment does not exist. It is used in plugin com.sap.core.tools.eclipse.server.javaweb.
+
+!ENTRY com.sap.core.tools.eclipse.server.common 4 0 2019-04-04 14:59:41.016
+!MESSAGE Could not get module root URL for module artifact WebResource [module=Module[ssm-demo,org.eclipse.jst.jee.server:ssm-demo], path=]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:01:30.210
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:01:47.564
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.common 4 0 2019-04-04 15:01:50.708
+!MESSAGE Could not get module root URL for module artifact WebResource [module=Module[ssm-demo,org.eclipse.jst.jee.server:ssm-demo], path=]
+
+!ENTRY com.sap.core.tools.eclipse.server.common 4 0 2019-04-04 15:15:37.528
+!MESSAGE Could not get module root URL for module artifact WebResource [module=Module[ssm-demo,org.eclipse.jst.jee.server:ssm-demo], path=]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:15:50.982
+!MESSAGE Stopping server 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' representing application 'ssmdemo' in subaccount 'p2001184157trial'.
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 15:15:57.643
+!MESSAGE com.sap.core.deploy.client.publicrest.impl.UpdateStateClient  - Error Occurred while execution of update application state to STOPPED. Details:
+	Code: bc895d42-a463-4d0e-89e9-0f1a136798f3
+	Description: Application [ssmdemo], component [web] already stopped
+
+
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 15:15:57.702
+!MESSAGE Stop operation for server [ssmdemo.p2001184157trial at hanatrial.ondemand.com] is unsuccessfull. 
+ Code: 5
+ Message:Application [ssmdemo], component [web] already stopped
+ Status :UNKNOWN(UNKNOWN)
+ Stacktrace :null
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 2 0 2019-04-04 15:15:57.703
+!MESSAGE Could not stop the server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]. It is in UNKNOWN state now.
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:16:09.297
+!MESSAGE Starting at:1554362169297
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:16:09.298
+!MESSAGE Starting server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]...
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:16:17.108
+!MESSAGE Call for Server 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' start finished. Result: 
+
+ Code: 0
+ Message:Triggered start of application process.
+ Status :STARTING(STARTING)
+ Stacktrace :null
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 15:21:50.824
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://hanatrial.ondemand.com] and alias [/] cannot be reached. Original error message is: Could not connect to host: https://hanatrial.ondemand.com. Make sure your proxy settings are correct
+
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatus(DeployerImpl.java:1177)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatus(DeployerImpl.java:1160)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatusAndApplicationData(JCloudControllerImpl.java:258)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:223)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveJpaaSServerState(CloudServerBehavior.java:196)
+	at com.sap.core.tools.eclipse.server.cloud.util.CloudPublishUtil.waitServerToStart(CloudPublishUtil.java:573)
+	at com.sap.core.tools.eclipse.server.cloud.launch.CloudLaunchConfigurationDelegate.launch(CloudLaunchConfigurationDelegate.java:89)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:731)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3566)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3502)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:377)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 15:21:50.825
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]  state is probably erroneous. Last state: 
+ Code: 0
+ Message:STARTING
+ Status :STARTING(STARTING)
+ Stacktrace :null
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatus(DeployerImpl.java:1177)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatus(DeployerImpl.java:1160)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatusAndApplicationData(JCloudControllerImpl.java:258)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:223)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveJpaaSServerState(CloudServerBehavior.java:196)
+	at com.sap.core.tools.eclipse.server.cloud.util.CloudPublishUtil.waitServerToStart(CloudPublishUtil.java:573)
+	at com.sap.core.tools.eclipse.server.cloud.launch.CloudLaunchConfigurationDelegate.launch(CloudLaunchConfigurationDelegate.java:89)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:731)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3566)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3502)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:377)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 15 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 2 0 2019-04-04 15:21:50.826
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com] returned an undetermined state. Last server's state and current exception are: 
+!STACK 0
+com.sap.core.deploy.client.exceptions.DeployClientException: Cannot reach host [https://hanatrial.ondemand.com]. Check host name for typing errors and make sure your proxy and network settings are correct
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:899)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatus(DeployerImpl.java:1177)
+	at com.sap.core.deploy.client.impl.DeployerImpl.getStatus(DeployerImpl.java:1160)
+	at com.sap.core.tools.eclipse.server.cloud.control.JCloudControllerImpl.getStatusAndApplicationData(JCloudControllerImpl.java:258)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:223)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveJpaaSServerState(CloudServerBehavior.java:196)
+	at com.sap.core.tools.eclipse.server.cloud.util.CloudPublishUtil.waitServerToStart(CloudPublishUtil.java:573)
+	at com.sap.core.tools.eclipse.server.cloud.launch.CloudLaunchConfigurationDelegate.launch(CloudLaunchConfigurationDelegate.java:89)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:731)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3566)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3502)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:377)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:542)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	... 15 more
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:23:30.884
+!MESSAGE Stopping server 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' representing application 'ssmdemo' in subaccount 'p2001184157trial'.
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:25:35.314
+!MESSAGE Stopping server 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' representing application 'ssmdemo' in subaccount 'p2001184157trial'.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2019-04-04 15:25:35.315
+!MESSAGE Server ssmdemo.p2001184157trial at hanatrial.ondemand.com was unable to start within 120 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 15:25:39.414
+!MESSAGE com.sap.core.deploy.client.publicrest.impl.UpdateStateClient  - Error Occurred while execution of update application state to STOPPED. Details:
+	Code: d7bdfde7-f379-446e-8b64-394f43a8e0a8
+	Description: Application [ssmdemo], component [web] already stopped
+
+
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 15:25:39.610
+!MESSAGE Stop operation for server [ssmdemo.p2001184157trial at hanatrial.ondemand.com] is unsuccessfull. 
+ Code: 5
+ Message:Application [ssmdemo], component [web] already stopped
+ Status :UNKNOWN(UNKNOWN)
+ Stacktrace :null
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 2 0 2019-04-04 15:25:39.611
+!MESSAGE Could not stop the server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]. It is in UNKNOWN state now.
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 15:31:15.366
+!MESSAGE Server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]  state is probably erroneous. Last state: 
+ Code: 0
+ Message:STOPPED
+ Status :STOPPED(STOPPED)
+ Stacktrace :null
+!STACK 1
+org.eclipse.core.runtime.CoreException: There is no server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:241)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.sap.core.tools.eclipse.server.cloud 4 1 2019-04-04 15:31:15.366
+!MESSAGE There is no server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 4 0 2019-04-04 15:31:15.367
+!MESSAGE Error on refreshing server state
+!STACK 1
+org.eclipse.core.runtime.CoreException: There is no server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.retrieveServerState(CloudServerBehavior.java:241)
+	at com.sap.core.tools.eclipse.server.cloud.control.CloudServerBehavior.refreshServerState(CloudServerBehavior.java:413)
+	at com.sap.core.tools.eclipse.server.cloud.CloudRefreshStateJob$ServerInstanceRefreshStateJob.run(CloudRefreshStateJob.java:613)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.sap.core.tools.eclipse.server.cloud 4 1 2019-04-04 15:31:15.367
+!MESSAGE There is no server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:31:18.519
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' removed
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-04-04 15:31:35.561
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 15:36:07.255
+!MESSAGE com.sap.core.deploy.client.utils.DeployClientUtils  - Host [https://eu1.hana.ondemand.com] and alias [/] cannot be reached. Original error message is: No response from server
+
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:553)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:412)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:345)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.getHttpClient(LandscapeHostValidator.java:284)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:188)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.checkConnectionToLandscapeHost(LandscapeHostValidator.java:150)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:614)
+	at com.sap.core.utils.infrastructure.validation.LandscapeHostValidator.isLandscapeHostValid(LandscapeHostValidator.java:563)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.checkHostValidity(DeployClientUtils.java:895)
+	at com.sap.core.deploy.client.utils.DeployClientUtils.prepareAndValidateHostString(DeployClientUtils.java:874)
+	at com.sap.core.deploy.client.impl.ConfigurationManagerImpl.listRuntimeTypes(ConfigurationManagerImpl.java:209)
+	at com.sap.core.tools.eclipse.server.cloud.util.RuntimeUtil.fetchRuntimeIds(RuntimeUtil.java:131)
+	at com.sap.core.tools.eclipse.server.cloud.util.RuntimeUtil.fetchRuntimesForLandscape(RuntimeUtil.java:69)
+	at com.sap.core.tools.eclipse.server.cloud.ui.wizard.CloudArtefactsComposite$FetchingLandscapeRuntimesRunnable.run(CloudArtefactsComposite.java:586)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:39:04.359
+!MESSAGE New server [SAP Cloud Platform at eu1.hana.ondemand.com] added. Creating application on SAP Cloud Platform...
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-04-04 15:44:08.496
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:17.683
+!MESSAGE New server [SAP Cloud Platform at eu1.hana.ondemand.com] added. Creating application on SAP Cloud Platform...
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:26.322
+!MESSAGE Deploying with descriptor [updateSite=EMPTY_SITE, Installable Unit=null, services=[all]]
+
+!ENTRY org.apache.log4j 4 0 2019-04-04 15:55:31.188
+!MESSAGE com.sap.core.deploy.client.impl.requests.BasicRequest  - Exception occured: {"code":"56e52ad9-1dc1-45d0-803a-5f7747a752d7","description":"Application ssmdemo does not exist. Please create it"}
+
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:35.332
+!MESSAGE The server 'SAP Cloud Platform at eu1.hana.ondemand.com' representing application 'ssmdemo' in subaccount 'p2001184157trial' is created.
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:35.334
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' added
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:41.885
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:56.189
+!MESSAGE Deploying war file with descriptor [warFile=C:\Users\jiangli\AppData\Local\Temp\central.jpaas.server.adapter2437163245431932384.tmp\demo.war]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:55:56.189
+!MESSAGE Deploying with descriptor [updateSite=C:\Users\jiangli\AppData\Local\Temp\central.jpaas.server.adapter2437163245431932384.tmp\demo.war, Installable Unit=null, services=[all]]
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:59:38.866
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:59:38.871
+!MESSAGE Server: 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' changed
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:59:39.033
+!MESSAGE Starting at:1554364779032
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:59:39.036
+!MESSAGE Starting server [ssmdemo.p2001184157trial at hanatrial.ondemand.com]...
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 15:59:54.555
+!MESSAGE Call for Server 'ssmdemo.p2001184157trial at hanatrial.ondemand.com' start finished. Result: 
+
+ Code: 0
+ Message:Triggered start of application process.
+ Status :STARTING(STARTING)
+ Stacktrace :null
+
+!ENTRY com.sap.core.tools.eclipse.server.cloud 1 0 2019-04-04 16:01:30.589
+!MESSAGE An application is started: URL is: https://ssmdemop2001184157trial.hanatrial.ondemand.com

@@ -1,0 +1,18 @@
+package com.core.mappers;
+
+import com.core.entity.User;
+import com.sap.db.jdbc.trace.ResultSet;
+
+public class MyRowMapper implements RowMapper<User>{
+ 
+     @Override
+     public User mapRow(ResultSet resultSet, int i) throws SQLException {
+ //        把数据封装成User对象
+         User user = new User();
+         user.setId(resultSet.getInt("id"));
+         user.setUserName(resultSet.getString("userName"));
+         user.setPassword(resultSet.getString("password"));
+         user.setRoleName(resultSet.getString("roleName"));
+         return user;
+     }
+ }

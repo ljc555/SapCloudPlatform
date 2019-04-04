@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;mysql-test.sql&apos; to &apos;sql&apos;&#x0D;&#x0A;- Original project: &apos;shop&apos;&#x0D;&#x0A;- Destination element: &apos;sql&apos;&#x0D;&#x0A;- Original element: &apos;mysql-test.sql&apos;" description="Copy file" element1="src/main/resources/sql/mysql-test.sql" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1554362810879" target="/shop/src/main/resources/sql" units="0" version="1.0"/>
+</session>

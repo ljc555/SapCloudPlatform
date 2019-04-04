@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server admin_server_port_nr="8005" ajp_port_nr="8009" auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Java Web Tomcat 8 Server-config" deployDir="wtpwebapps" hostname="localhost" id="Java Web Tomcat 8 Server" instance_nr="8080" jmx_port_nr="1717" name="Java Web Tomcat 8 Server" runtime-id="Java Web Tomcat 8" server-type="com.sap.core.javaweb.tomcat.server.80" server-type-id="com.sap.core.javaweb.tomcat.server.80" service_port_nr="8087" start-timeout="345" stop-timeout="15" testEnvironment="true" timestamp="11">
+    <list key="modules" value0="shop::org.eclipse.jst.jee.server:shop::jst.web::2.5"/>
+  </server>
+  <server PROPERTY_JPACOMPONENT="web" PROPERTY_JPAPPLIANCE="ssmdemo" PROPERTY_JPSPACE="p2001184157trial" PROPERTY_LANDSCAPE_HOST="https://hanatrial.ondemand.com" PROPERTY_SAVE_PASSWORD="true" PROPERTY_SHORT_URL="" PROPERTY_USER="ljc555@gmail.com" RUNTIME_TYPE="auto" RUNTIME_VERSION="auto" SERVER_IS_EMPTY="false" auto-publish-setting="1" hostname="hanatrial.ondemand.com" id="SAP Cloud Platform at eu1.hana.ondemand.com" name="ssmdemo.p2001184157trial at hanatrial.ondemand.com" server-type="com.sap.core.server.cloud" server-type-id="com.sap.core.server.cloud" start-timeout="120" stop-timeout="60" timestamp="3">
+    <list key="modules" value0="ssm-demo::org.eclipse.jst.jee.server:ssm-demo::jst.web::3.1"/>
+  </server>
+</servers>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdbstudio version="1.2">
+<tree>
+<sapsystem name="J0G:LOCALHOST:00:P2001184157TRIAL-LJC555:LJC555DB"/>
+</tree>
+<sapsystems>
+<sapsystem cloudAccount="p2001184157trial" cloudDedicatedDb="ljc555" cloudHost="hanatrial.ondemand.com" cloudSystemName="p2001184157trial-ljc555" cloudUser="ljc555@gmail.com" databasename="p2001184157trial-ljc555" databasetype="USERDB" hostname="localhost" instancenumber="0" open="true" secure="false" secure_xs="true" ssl="false" systemname="J0G" tunneled="tunneled" username="LJC555DB" xs_host="ljc555p2001184157trial.hanatrial.ondemand.com:443">
+<hostrole hostname="localhost" publicname="localhost" role="CLIENT" sqlport="30015"/>
+<hostrole hostname="vsa1157998.nwtrial.od.sap.biz" publicname="10.117.96.133" role="MASTER" sqlport="0"/>
+<sapcontrol state="DISABLED"/>
+</sapsystem>
+</sapsystems>
+</hdbstudio>
